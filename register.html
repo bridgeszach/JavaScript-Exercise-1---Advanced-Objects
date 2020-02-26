@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Pet Salon</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <p>
+            <label for="name">Name:</label>
+            <input class = "field" id="txtName" type="text">
+        </p>
+
+        <p>
+            <label for="age">Age:</label>
+            <input class = "field" type="number" name="age" id="txtAge">
+        </p>
+
+        <p>
+            <label for="gender">Gender: </label>
+            <input class = "field" id="txtGender" type="text">
+        </p>
+        <p>
+            <label for="breed">Breed:</label>
+            <input class = "field" type="text" id="txtBreed">
+        </p>
+
+        <p>
+            <label for="services">Service:</label>
+            <select class = "field" name="services" id="txtService">
+                <option value="" disabled selected>---Select A Service---</option>
+                <option value="Shower">Shower</option>
+                <option value="Hair-Cut">Hair-Cut</option>
+                <option value="Nails">Nail Trim</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="owner">Owner's Name:</label>
+            <input class = "field" type="text" id="txtOwner">
+        </p>
+
+        <p>
+            <label for="phone">Owner's Phone:</label>
+            <input class = "field" type="text" id="txtPhone">
+        </p>
+
+
+        <input class="button" type="button" value="Register" onclick="register();">
+
+    </form>
+
+    <div>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Breed</th>
+                <th>Services</th>
+                <th>Owner Name</th>
+                <th>Owner Phone</th>
+
+            </thead>
+            <tbody id="rowPet"></tbody>
+        </table>
+    </div>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>

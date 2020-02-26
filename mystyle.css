@@ -1,0 +1,25 @@
+table {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: rgb(161, 161, 233);
+    margin-left: 12rem;
+}
+
+.field {
+    margin-top: 2rem;
+
+
+}
